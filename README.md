@@ -100,6 +100,6 @@ Our code references the following projects. Many thanks to the authors.
 
 - [VAL](https://github.com/yanbeic/VAL)
 - [CLIP4Cir](https://github.com/ABaldrati/CLIP4Cir)
-- [CLIP](ttps://github.com/openai/CLIP)
+- [CLIP](https://github.com/openai/CLIP)
 - [FAME-ViL](https://github.com/BrandonHanx/FAME-ViL)
 - [open_clip](https://github.com/mlfoundations/open_clip)
