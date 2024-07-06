@@ -16,7 +16,7 @@ This is the source code of our AAAI 2024 paper "[FashionERN: Enhance-and-Refine 
 
 ```bash
 conda env create -f environment.yml
-source activate Real
+source activate Fashion
 ```
 
 ## Datasets
