@@ -1,0 +1,175 @@
+=> world size: 8
+=> rank: 0
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 0
+=> world size: 8
+=> rank: 7
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 7
+=> world size: 8
+=> rank: => world size:1=> world size: 
+ 8=> dist_url:8
+ 
+=> rank:tcp://127.0.0.1:22223=> rank: 
+ 6=> local_rank:4
+ 
+=> dist_url:1=> dist_url: 
+ tcp://127.0.0.1:22223tcp://127.0.0.1:22223
+
+=> local_rank:=> local_rank:  64
+
+=> world size: 8
+=> rank: 3
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 3
+=> world size: 8
+=> rank: 5
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 5
+=> world size: 8
+=> rank: 2
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 2
+Fashion200k
+Fashion200k
+Fashion200k
+Fashion200k
+Fashion200k
+Fashion200k
+Fashion200k
+Fashion200k
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+CLIP model loaded successfully
+Processing train set
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/dress_train_detect_all.txt
+Processing train set
+Processing train set
+Processing train set
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/dress_train_detect_all.txt
+Processing train set
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/dress_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/dress_train_detect_all.txtProcessing train set
+
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/dress_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/dress_train_detect_all.txt
+Processing train set
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/dress_train_detect_all.txt
+Processing train set
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/dress_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/jacket_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/jacket_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/jacket_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/jacket_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/jacket_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/jacket_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/jacket_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/jacket_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/pants_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/pants_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/pants_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/pants_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/pants_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/pants_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/pants_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/pants_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/skirt_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/skirt_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/skirt_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/skirt_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/skirt_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/skirt_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/skirt_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/skirt_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/top_train_detect_all.txtread /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/top_train_detect_all.txt
+
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/top_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/top_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/top_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/top_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/top_train_detect_all.txt
+read /mnt/vision_retrieval/chenyanzhe/fashion-200k/labels/top_train_detect_all.txt
+unique cations = 53099
+unique cations = 53099
+unique cations = 53099
+unique cations = 53099
+unique cations = 53099
+unique cations = 53099
+unique cations = 53099
+unique cations = 53099
+Modifiable images = 99130
+Modifiable images = 99130
+Modifiable images = 99130
+Modifiable images = 99130
+Modifiable images = 99130
+Modifiable images = 99130
+Modifiable images = 99130
+Modifiable images = 99130
+shuffling the random source-target pairs. It gives 338644 pairs.
+shuffling the random source-target pairs. It gives 338644 pairs.
+shuffling the random source-target pairs. It gives 338644 pairs.
+shuffling the random source-target pairs. It gives 338644 pairs.
+shuffling the random source-target pairs. It gives 338644 pairs.
+Begin to train
+shuffling the random source-target pairs. It gives 338644 pairs.
+shuffling the random source-target pairs. It gives 338644 pairs.
+shuffling the random source-target pairs. It gives 338644 pairs.
+Train Epoch: [0][0/330]	Loss 2.6418 (2.6418)	LossFusion 2.6418 (2.6418)	
+Train Epoch: [0][100/330]	Loss 0.8374 (1.0788)	LossFusion 0.8374 (1.0788)	
+Train Epoch: [0][200/330]	Loss 0.8583 (0.9537)	LossFusion 0.8583 (0.9537)	
+Train Epoch: [0][300/330]	Loss 0.6992 (0.8991)	LossFusion 0.6992 (0.8991)	
+Train Epoch: [0][329/330]	Loss 0.7870 (0.8879)	LossFusion 0.7870 (0.8879)	
+Train Epoch: [1][0/330]	Loss 0.7315 (0.7315)	LossFusion 0.7315 (0.7315)	
+Train Epoch: [1][100/330]	Loss 0.7423 (0.7618)	LossFusion 0.7423 (0.7618)	
+Train Epoch: [1][200/330]	Loss 0.8134 (0.7596)	LossFusion 0.8134 (0.7596)	
+Train Epoch: [1][300/330]	Loss 0.6725 (0.7531)	LossFusion 0.6725 (0.7531)	
+Train Epoch: [1][329/330]	Loss 0.7460 (0.7510)	LossFusion 0.7460 (0.7510)	
+Train Epoch: [2][0/330]	Loss 0.6842 (0.6842)	LossFusion 0.6842 (0.6842)	
+Train Epoch: [2][100/330]	Loss 0.7070 (0.7264)	LossFusion 0.7070 (0.7264)	
+Train Epoch: [2][200/330]	Loss 0.7743 (0.7270)	LossFusion 0.7743 (0.7270)	
+Train Epoch: [2][300/330]	Loss 0.6551 (0.7222)	LossFusion 0.6551 (0.7222)	
+Train Epoch: [2][329/330]	Loss 0.7004 (0.7211)	LossFusion 0.7004 (0.7211)	
+Train Epoch: [3][0/330]	Loss 0.6587 (0.6587)	LossFusion 0.6587 (0.6587)	
+Train Epoch: [3][100/330]	Loss 0.6883 (0.7000)	LossFusion 0.6883 (0.7000)	
+Train Epoch: [3][200/330]	Loss 0.7649 (0.7015)	LossFusion 0.7649 (0.7015)	
+Train Epoch: [3][300/330]	Loss 0.6439 (0.6975)	LossFusion 0.6439 (0.6975)	
+Train Epoch: [3][329/330]	Loss 0.7186 (0.6963)	LossFusion 0.7186 (0.6963)	
+Train Epoch: [4][0/330]	Loss 0.6419 (0.6419)	LossFusion 0.6419 (0.6419)	
+Train Epoch: [4][100/330]	Loss 0.6547 (0.6781)	LossFusion 0.6547 (0.6781)	
+Train Epoch: [4][200/330]	Loss 0.6745 (0.6771)	LossFusion 0.6745 (0.6771)	
+Train Epoch: [4][300/330]	Loss 0.6196 (0.6739)	LossFusion 0.6196 (0.6739)	
+Train Epoch: [4][329/330]	Loss 0.6876 (0.6727)	LossFusion 0.6876 (0.6727)	
+Train Epoch: [5][0/330]	Loss 0.6245 (0.6245)	LossFusion 0.6245 (0.6245)	
+Train Epoch: [5][100/330]	Loss 0.6288 (0.6534)	LossFusion 0.6288 (0.6534)	
+Train Epoch: [5][200/330]	Loss 0.6464 (0.6523)	LossFusion 0.6464 (0.6523)	
+Train Epoch: [5][300/330]	Loss 0.5843 (0.6482)	LossFusion 0.5843 (0.6482)	
+Train Epoch: [5][329/330]	Loss 0.6660 (0.6468)	LossFusion 0.6660 (0.6468)	
+Train Epoch: [6][0/330]	Loss 0.5661 (0.5661)	LossFusion 0.5661 (0.5661)	
+Train Epoch: [6][100/330]	Loss 0.6237 (0.6238)	LossFusion 0.6237 (0.6238)	
+Train Epoch: [6][200/330]	Loss 0.6656 (0.6235)	LossFusion 0.6656 (0.6235)	
+Train Epoch: [6][300/330]	Loss 0.5526 (0.6195)	LossFusion 0.5526 (0.6195)	
+Train Epoch: [6][329/330]	Loss 0.6270 (0.6186)	LossFusion 0.6270 (0.6186)	
+Train Epoch: [7][0/330]	Loss 0.5814 (0.5814)	LossFusion 0.5814 (0.5814)	
+Train Epoch: [7][100/330]	Loss 0.5989 (0.5999)	LossFusion 0.5989 (0.5999)	
+Train Epoch: [7][200/330]	Loss 0.6296 (0.5968)	LossFusion 0.6296 (0.5968)	
+Train Epoch: [7][300/330]	Loss 0.5525 (0.5925)	LossFusion 0.5525 (0.5925)	
+Train Epoch: [7][329/330]	Loss 0.6081 (0.5910)	LossFusion 0.6081 (0.5910)	
+Train Epoch: [8][0/330]	Loss 0.5568 (0.5568)	LossFusion 0.5568 (0.5568)	
+Train Epoch: [8][100/330]	Loss 0.5848 (0.5709)	LossFusion 0.5848 (0.5709)	
+Train Epoch: [8][200/330]	Loss 0.5897 (0.5678)	LossFusion 0.5897 (0.5678)	
+Train Epoch: [8][300/330]	Loss 0.5083 (0.5633)	LossFusion 0.5083 (0.5633)	
+Train Epoch: [8][329/330]	Loss 0.5854 (0.5622)	LossFusion 0.5854 (0.5622)	
+Train Epoch: [9][0/330]	Loss 0.5263 (0.5263)	LossFusion 0.5263 (0.5263)	
+Train Epoch: [9][100/330]	Loss 0.5336 (0.5387)	LossFusion 0.5336 (0.5387)	
+Train Epoch: [9][200/330]	Loss 0.5416 (0.5382)	LossFusion 0.5416 (0.5382)	
+Train Epoch: [9][300/330]	Loss 0.4775 (0.5335)	LossFusion 0.4775 (0.5335)	
+Train Epoch: [9][329/330]	Loss 0.5473 (0.5322)	LossFusion 0.5473 (0.5322)	
+Train Epoch: [10][0/330]	Loss 0.5051 (0.5051)	LossFusion 0.5051 (0.5051)	
+Train Epoch: [10][100/330]	Loss 0.5114 (0.5129)	LossFusion 0.5114 (0.5129)	
+Train Epoch: [10][200/330]	Loss 0.5254 (0.5109)	LossFusion 0.5254 (0.5109)	

@@ -1,0 +1,131 @@
+=> world size: 8
+=> rank: 2
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 2
+=> world size:=> world size:  88
+
+=> rank:=> rank:  40
+
+=> dist_url:=> dist_url:  tcp://127.0.0.1:22223tcp://127.0.0.1:22223
+
+=> local_rank:=> local_rank:  40=> world size:
+
+ 8
+=> rank: 5
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 5
+=> world size: 8
+=> rank: 1
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 1
+=> world size: 8
+=> rank: 3
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 3
+=> world size: 8
+=> rank: 6
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 6
+=> world size: 8
+=> rank: 7
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 7
+Shoes
+Shoes
+Shoes
+Shoes
+Shoes
+Shoes
+Shoes
+Shoes
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+CLIP model loaded successfully
+Begin to train
+Train Epoch: [0][0/17]	Loss 3.1787 (3.1787)	LossFusion 3.1787 (3.1787)	
+Train Epoch: [0][16/17]	Loss 1.1513 (1.9652)	LossFusion 1.1513 (1.9652)	
+R@10:  52.41340398788452     R@50:  78.76206636428833
+Best Mean Now:  65.58774 ******************************
+Train Epoch: [1][0/17]	Loss 1.4941 (1.4941)	LossFusion 1.4941 (1.4941)	
+Train Epoch: [1][16/17]	Loss 0.8753 (1.1645)	LossFusion 0.8753 (1.1645)	
+R@10:  53.49233150482178     R@50:  79.32992577552795
+Best Mean Now:  66.41113 ******************************
+Train Epoch: [2][0/17]	Loss 1.1960 (1.1960)	LossFusion 1.1960 (1.1960)	
+Train Epoch: [2][16/17]	Loss 0.8213 (1.0388)	LossFusion 0.8213 (1.0388)	
+R@10:  54.79841232299805     R@50:  80.52242994308472
+Best Mean Now:  67.66042 ******************************
+Train Epoch: [3][0/17]	Loss 1.1527 (1.1527)	LossFusion 1.1527 (1.1527)	
+Train Epoch: [3][16/17]	Loss 0.8177 (1.0081)	LossFusion 0.8177 (1.0081)	
+R@10:  54.68483567237854     R@50:  80.29528856277466
+Mean Now:  67.4900621175766  Best Mean Before:  67.66042 --------------------
+Train Epoch: [4][0/17]	Loss 1.0622 (1.0622)	LossFusion 1.0622 (1.0622)	
+Train Epoch: [4][16/17]	Loss 0.7872 (0.9590)	LossFusion 0.7872 (0.9590)	
+R@10:  54.74162697792053     R@50:  80.80636262893677
+Best Mean Now:  67.77399 ******************************
+Train Epoch: [5][0/17]	Loss 1.0652 (1.0652)	LossFusion 1.0652 (1.0652)	
+Train Epoch: [5][16/17]	Loss 0.7197 (0.9364)	LossFusion 0.7197 (0.9364)	
+R@10:  54.514479637145996     R@50:  80.9199333190918
+Mean Now:  67.7172064781189  Best Mean Before:  67.77399 --------------------
+Train Epoch: [6][0/17]	Loss 1.0377 (1.0377)	LossFusion 1.0377 (1.0377)	
+Train Epoch: [6][16/17]	Loss 0.7533 (0.9124)	LossFusion 0.7533 (0.9124)	
+R@10:  54.628050327301025     R@50:  81.14707469940186
+Best Mean Now:  67.88756 ******************************
+Train Epoch: [7][0/17]	Loss 1.0397 (1.0397)	LossFusion 1.0397 (1.0397)	
+Train Epoch: [7][16/17]	Loss 0.7345 (0.8930)	LossFusion 0.7345 (0.8930)	
+R@10:  54.79841232299805     R@50:  81.4310073852539
+Best Mean Now:  68.11471 ******************************
+Train Epoch: [8][0/17]	Loss 0.9640 (0.9640)	LossFusion 0.9640 (0.9640)	
+Train Epoch: [8][16/17]	Loss 0.7006 (0.8738)	LossFusion 0.7006 (0.8738)	
+R@10:  54.85519766807556     R@50:  81.3174307346344
+Mean Now:  68.08631420135498  Best Mean Before:  68.11471 --------------------
+Train Epoch: [9][0/17]	Loss 0.9870 (0.9870)	LossFusion 0.9870 (0.9870)	
+Train Epoch: [9][16/17]	Loss 0.6725 (0.8549)	LossFusion 0.6725 (0.8549)	
+R@10:  55.025553703308105     R@50:  81.3174307346344
+Best Mean Now:  68.17149 ******************************
+Train Epoch: [10][0/17]	Loss 0.9576 (0.9576)	LossFusion 0.9576 (0.9576)	
+Train Epoch: [10][16/17]	Loss 0.6531 (0.8371)	LossFusion 0.6531 (0.8371)	
+R@10:  55.08233904838562     R@50:  81.771719455719
+Best Mean Now:  68.42703 ******************************
+Train Epoch: [11][0/17]	Loss 0.9408 (0.9408)	LossFusion 0.9408 (0.9408)	
+Train Epoch: [11][16/17]	Loss 0.6033 (0.8188)	LossFusion 0.6033 (0.8188)	
+R@10:  55.19590973854065     R@50:  81.4310073852539
+Mean Now:  68.31345856189728  Best Mean Before:  68.42703 --------------------
+Train Epoch: [12][0/17]	Loss 0.8897 (0.8897)	LossFusion 0.8897 (0.8897)	
+Train Epoch: [12][16/17]	Loss 0.5963 (0.7848)	LossFusion 0.5963 (0.7848)	
+R@10:  55.59341311454773     R@50:  81.71493411064148
+Best Mean Now:  68.65417 ******************************
+Train Epoch: [13][0/17]	Loss 0.8735 (0.8735)	LossFusion 0.8735 (0.8735)	
+Train Epoch: [13][16/17]	Loss 0.5604 (0.7716)	LossFusion 0.5604 (0.7716)	
+R@10:  55.252695083618164     R@50:  81.48779273033142
+Mean Now:  68.37024390697479  Best Mean Before:  68.65417 --------------------
+Train Epoch: [14][0/17]	Loss 0.8723 (0.8723)	LossFusion 0.8723 (0.8723)	
+Train Epoch: [14][16/17]	Loss 0.5239 (0.7377)	LossFusion 0.5239 (0.7377)	
+R@10:  54.96876835823059     R@50:  81.88529014587402
+Mean Now:  68.42702925205231  Best Mean Before:  68.65417 --------------------
+Train Epoch: [15][0/17]	Loss 0.8483 (0.8483)	LossFusion 0.8483 (0.8483)	
+Train Epoch: [15][16/17]	Loss 0.5206 (0.7198)	LossFusion 0.5206 (0.7198)	
+R@10:  54.85519766807556     R@50:  81.771719455719
+Mean Now:  68.31345856189728  Best Mean Before:  68.65417 --------------------
+Train Epoch: [16][0/17]	Loss 0.8546 (0.8546)	LossFusion 0.8546 (0.8546)	
+Train Epoch: [16][16/17]	Loss 0.5060 (0.6974)	LossFusion 0.5060 (0.6974)	
+R@10:  54.514479637145996     R@50:  81.26064538955688
+Mean Now:  67.88756251335144  Best Mean Before:  68.65417 --------------------
+Train Epoch: [17][0/17]	Loss 0.8141 (0.8141)	LossFusion 0.8141 (0.8141)	
+Train Epoch: [17][16/17]	Loss 0.4971 (0.6618)	LossFusion 0.4971 (0.6618)	
+R@10:  54.23055291175842     R@50:  81.48779273033142
+Mean Now:  67.85917282104492  Best Mean Before:  68.65417 --------------------
+Train Epoch: [18][0/17]	Loss 0.7533 (0.7533)	LossFusion 0.7533 (0.7533)	
+Train Epoch: [18][16/17]	Loss 0.4675 (0.6306)	LossFusion 0.4675 (0.6306)	
+R@10:  54.74162697792053     R@50:  81.20386004447937
+Mean Now:  67.97274351119995  Best Mean Before:  68.65417 --------------------
+Train Epoch: [19][0/17]	Loss 0.7521 (0.7521)	LossFusion 0.7521 (0.7521)	
+Train Epoch: [19][16/17]	Loss 0.4612 (0.6046)	LossFusion 0.4612 (0.6046)	
+R@10:  55.08233904838562     R@50:  80.63600063323975
+Mean Now:  67.85916984081268  Best Mean Before:  68.65417 --------------------
+Train Epoch: [20][0/17]	Loss 0.7411 (0.7411)	LossFusion 0.7411 (0.7411)	

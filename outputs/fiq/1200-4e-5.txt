@@ -1,0 +1,47 @@
+=> world size: 8
+=> rank: 0
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 0
+=> world size: 8
+=> rank:=> world size:  38
+
+=> dist_url:=> rank:  tcp://127.0.0.1:222231
+
+=> local_rank:=> dist_url:  3tcp://127.0.0.1:22223
+=> world size:
+ => local_rank:8 
+1=> rank:
+ 4
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 4=> world size:
+ 8
+=> rank: 5
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 5
+=> world size: 8
+=> rank: 6
+=> dist_url: tcp://127.0.0.1:22223
+=> local_rank: 6
+=> world size:=> world size:  88
+
+=> rank:=> rank:  27
+
+=> dist_url:=> dist_url:  tcp://127.0.0.1:22223tcp://127.0.0.1:22223
+
+=> local_rank:=> local_rank:  27
+
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+Changed CLIP Model, designed for enhanced text
+CLIP model loaded successfully
+Begin to train
+Train Epoch: [0][0/15]	Loss 6.5462 (6.5462)	LossFusion 6.5462 (6.5462)	
+Train Epoch: [0][14/15]	Loss 3.1441 (4.5233)	LossFusion 3.1441 (4.5233)	
+R@10:  39.40016229947408     R@50:  62.76170412699381
+Best Mean Now:  51.08093 ******************************
+Train Epoch: [1][0/15]	Loss 4.1393 (4.1393)	LossFusion 4.1393 (4.1393)	
