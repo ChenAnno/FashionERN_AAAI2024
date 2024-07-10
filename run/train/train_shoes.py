@@ -221,3 +221,4 @@ if __name__ == "__main__":
 
     trainer = ShoesTrainer(**training_hyper_params)
     trainer.train()
+    
