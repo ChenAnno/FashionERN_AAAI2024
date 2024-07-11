@@ -10,7 +10,7 @@ from dataloader.dataset import CIRRDataset, targetpad_transform
 from utils.utils import extract_index_features, AverageMeter, setup_seed, extract_image_features, extract_text_features
 from run.valid.validate_cirr import compute_cirr_val_metrics
 from models.model import ERN
-from loss.loss import BatchBasedClassificationLoss
+from losses.loss import BatchBasedClassificationLoss
 from run.train.base_trainer import BaseTrainer
 # from X_clip.factory import create_model_and_transforms
 
