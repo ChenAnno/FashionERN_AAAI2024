@@ -31,19 +31,20 @@ class BaseTrainer:
         raise NotImplementedError("Subclasses should implement {}".format("define_model"))
 
     def define_train_loader(self):
-        raise NotImplementedError("Subclasses should implement this method")
+        raise NotImplementedError("Subclasses should implement {}".format("define_train_loader"))
 
     def define_val_datasets(self):
-        raise NotImplementedError("Subclasses should implement this method")
+        raise NotImplementedError("Subclasses should implement {}".format("define_val_datasets"))
 
     def define_optimizer_and_loss(self):
-        raise NotImplementedError("Subclasses should implement this method")
+        raise NotImplementedError("Subclasses should implement {}".format("define_optimizer_and_loss"))
 
     def train_one_epoch(self):
-        raise NotImplementedError("Subclasses should implement this method")
+        raise NotImplementedError("Subclasses should implement {}".format("train_one_epoch"))
 
     def validate(self):
-        raise NotImplementedError("Subclasses should implement this method")
+        if self.dataset != "fashion200k":
+            raise NotImplementedError("Subclasses should implement {}".format("validate"))
 
     def train(self):
         self.model.train()
