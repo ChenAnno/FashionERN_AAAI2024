@@ -18,7 +18,7 @@ from utils.utils import (
 )
 from run.valid.validate_fiq import compute_fiq_val_metrics
 from models.model import ERN
-from loss.loss import BatchBasedClassificationLoss
+from losses.loss import BatchBasedClassificationLoss
 from run.train.base_trainer import BaseTrainer
 
 # from X_clip.factory import create_model_and_transforms
