@@ -11,7 +11,7 @@ from dataloader.fashion200k_patch import Fashion200kDataset
 from utils.utils import AverageMeter, setup_seed, extract_image_features, extract_text_features
 from models.model import ERN
 from run.train.base_trainer import BaseTrainer
-from loss.loss import BatchBasedClassificationLoss
+from losses.loss import BatchBasedClassificationLoss
 # from X_clip.factory import create_model_and_transforms
 
 setup_seed(42)
