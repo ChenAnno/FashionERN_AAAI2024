@@ -32,6 +32,12 @@ The download homepages for these datasets are listed as follows.
 
 ## Quick Start
 
+- **dataloader**: Contains loading files for 4 commonly used datasets.
+- **losses**: Contains the ```loss.py``` file specific to the paper, along with an ```others``` folder that includes additional commonly used loss functions.
+- **models**: Contains the ```FashionERN``` model. The ```others``` folder within models gathers relatedmodels that may be compared.
+- **run**: Contains files corresponding to the training (train), validation (valid), and testing (test) phases.
+- **utils**: Comprises of utility functions that support various tasks within the project.
+
 Due to Kuaishou's code restrictions, we are unable to open-source the TME module used internally, :(. However, we will make it as easy as possible to follow our work and use a vanilla CLIP single branch to ensure the approach can run.
 
 The training code is built on PyTorch with DistributedDataParallel (DDP). We pretrain the framework with 8 V100 GPUs.
