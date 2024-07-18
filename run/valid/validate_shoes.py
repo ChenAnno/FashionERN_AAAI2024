@@ -8,22 +8,28 @@ import open_clip
 from utils.utils import collate_fn
 
 
-def compute_shoes_val_metrics(relative_val_dataset,
-                              clip_model,
-                              index_features,
-                              index_local_features,
-                              index_names,
-                              model,
-                              device,
-                              feature_dim
-                              ):
+def compute_shoes_val_metrics(
+    relative_val_dataset,
+    clip_model,
+    index_features,
+    index_local_features,
+    index_names,
+    model,
+    device,
+    feature_dim,
+):
     # Generate predictions
-    predicted_features, target_names = generate_shoes_val_predictions(clip_model, relative_val_dataset,
-                                                                      model, index_names, index_features,
-                                                                      device, feature_dim)
+    predicted_features, target_names = generate_shoes_val_predictions(
+        clip_model,
+        relative_val_dataset,
+        model,
+        index_names,
+        index_features,
+        device,
+        feature_dim,
+    )
     index_features = F.normalize(index_features, dim=-1).float()
-    tar_local_feats = model(ref_local_feats=index_local_features, mode="local").float()
-    index_features = model(tar_feats=index_features, tar_local_feats=tar_local_feats, mode="index").float()
+    index_features = model(tar_feats=index_features, tar_local_feats=index_local_features, mode="index").float()
 
     # Compute the distances and sort the results
     distances = 1 - predicted_features @ index_features.T
@@ -42,18 +48,24 @@ def compute_shoes_val_metrics(relative_val_dataset,
     return recall_at10, recall_at50
 
 
-def generate_shoes_val_predictions(clip_model,
-                                   relative_val_dataset,
-                                   model,
-                                   index_names,
-                                   index_features,
-                                   device,
-                                   feature_dim,
-                                   ):
+def generate_shoes_val_predictions(
+    clip_model,
+    relative_val_dataset,
+    model,
+    index_names,
+    index_features,
+    device,
+    feature_dim,
+):
     tokenizer = open_clip.get_tokenizer('RN50x4')
-    relative_val_loader = DataLoader(dataset=relative_val_dataset, batch_size=32,
-                                     num_workers=4, pin_memory=True, collate_fn=collate_fn,
-                                     shuffle=False)
+    relative_val_loader = DataLoader(
+        dataset=relative_val_dataset,
+        batch_size=32,
+        num_workers=4,
+        pin_memory=True,
+        collate_fn=collate_fn,
+        shuffle=False,
+    )
     name_to_feat = dict(zip(index_names, index_features))
     predicted_features = torch.empty((0, feature_dim)).to(device, non_blocking=True)
     target_names = []
@@ -67,14 +79,11 @@ def generate_shoes_val_predictions(clip_model,
             ref_patch_feats_trans = ref_patch_feats.transpose(0, 1)
             text_features, _ = clip_model.encode_text(text_inputs, visual_emb=ref_patch_feats_trans)
             text_seq_feats = clip_model.encode_text(text_inputs, mode="seq", visual_emb=ref_patch_feats_trans)
-
             if text_features.shape[0] == 1:
                 reference_image_features = itemgetter(*ref_names)(name_to_feat).unsqueeze(0)
             else:
                 reference_image_features = torch.stack(itemgetter(*ref_names)(name_to_feat))
-
             text_features, text_seq_feats = text_features.to(device), text_seq_feats.to(device)
-
             batch_predicted_features = model(
                 ref_feats=reference_image_features,
                 ref_local_feats=ref_patch_feats,
@@ -86,4 +95,3 @@ def generate_shoes_val_predictions(clip_model,
         target_names.extend(batch_target_names)
 
     return predicted_features, target_names
-
