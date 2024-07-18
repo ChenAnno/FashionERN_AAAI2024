@@ -28,21 +28,27 @@ class BaseTrainer:
         self.epoch = 0
 
     def define_model(self):
+        # Define the FashionERN model and the tokenizer
         raise NotImplementedError("Subclasses should implement {}".format("define_model"))
 
     def define_train_loader(self):
+        # Define the trainloader
         raise NotImplementedError("Subclasses should implement {}".format("define_train_loader"))
 
     def define_val_datasets(self):
+        # Define the validate dataset, index global features, index names and index patch features
         raise NotImplementedError("Subclasses should implement {}".format("define_val_datasets"))
 
     def define_optimizer_and_loss(self):
+        # Define optimizer, scheduler, criterion, scaler
         raise NotImplementedError("Subclasses should implement {}".format("define_optimizer_and_loss"))
 
     def train_one_epoch(self):
+        # Training code for one epoch
         raise NotImplementedError("Subclasses should implement {}".format("train_one_epoch"))
 
     def validate(self):
+        # Note: Due to the large scale of Fashion200K, test_200k is needed to be applied to each checkpoint
         if self.dataset != "fashion200k":
             raise NotImplementedError("Subclasses should implement {}".format("validate"))
 
