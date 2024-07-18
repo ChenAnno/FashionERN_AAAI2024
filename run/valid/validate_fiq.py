@@ -18,12 +18,17 @@ def compute_fiq_val_metrics(
     device,
     feature_dim,
 ):
-    predicted_features, target_names = generate_fiq_val_predictions(clip_model, relative_val_dataset,
-                                                                    model, index_names, index_features,
-                                                                    device, feature_dim)
+    predicted_features, target_names = generate_fiq_val_predictions(
+        clip_model,
+        relative_val_dataset,
+        model,
+        index_names,
+        index_features,
+        device,
+        feature_dim,
+    )
     index_features = F.normalize(index_features, dim=-1).float()
-    tar_local_feats = model(ref_local_feats=index_local_features, mode="local").float()
-    index_features = model(tar_feats=index_features, tar_local_feats=tar_local_feats, mode="index").float()
+    index_features = model(tar_feats=index_features, tar_local_feats=index_local_features, mode="index").float()
 
     # Compute the distances and sort the results
     distances = 1 - predicted_features @ index_features.T
@@ -42,14 +47,15 @@ def compute_fiq_val_metrics(
     return recall_at10, recall_at50
 
 
-def generate_fiq_val_predictions(clip_model,
-                                 relative_val_dataset,
-                                 model,
-                                 index_names,
-                                 index_features,
-                                 device,
-                                 feature_dim,
-                                 ):
+def generate_fiq_val_predictions(
+    clip_model,
+    relative_val_dataset,
+    model,
+    index_names,
+    index_features,
+    device,
+    feature_dim,
+):
     tokenizer = open_clip.get_tokenizer('RN50x4')
 
     relative_val_loader = DataLoader(
