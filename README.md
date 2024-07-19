@@ -34,7 +34,7 @@ The download homepages for these datasets are listed as follows.
 
 - **dataloader**: Contains loading files for 4 commonly used datasets.
 - **losses**: Contains the ```loss.py``` file specific to the paper, along with an ```others``` folder that includes additional commonly used loss functions.
-- **models**: Contains the ```FashionERN``` model. The ```others``` folder within models gathers relatedmodels that may be compared.
+- **models**: Contains the ```FashionERN``` model. The ```others``` folder within models gathers related models that may be compared.
 - **run**: Contains files corresponding to the training (train), validation (valid), and testing (test) phases.
 - **utils**: Comprises of utility functions that support various tasks within the project.
 
